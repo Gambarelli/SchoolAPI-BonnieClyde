@@ -1,6 +1,8 @@
 class CourseDto {
-  id = 0;
-  name = "";
+  constructor(){
+  this.id = 0;
+  this.name = "";
+  }
 }
 
 module.exports = CourseDto;

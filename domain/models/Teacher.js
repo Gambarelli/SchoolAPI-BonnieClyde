@@ -1,9 +1,12 @@
 class Teacher {
-  id = 0;
-  name = null;
-  lastname = null;
-  createdAt = null;
-  updatedAt = null;
+  constructor(){
+  this.id = 0;
+  this.name = null;
+  this.lastname = null;
+  this.createdAt = null;
+  this. updatedAt = null;
+  }
+  
 }
 
 module.exports = Teacher;

@@ -1,9 +1,11 @@
 class StudentDto {
-  id = 0;
-  name = "";
-  lastname = "";
-  createdAt = null;
-  updatedAt = null;
+  constructor(){
+    this.id = 0;
+    this.name = "";
+    this.lastname = "";
+    this.createdAt = null;
+    this.updatedAt = null;
+  }
 }
 
 module.exports = StudentDto;

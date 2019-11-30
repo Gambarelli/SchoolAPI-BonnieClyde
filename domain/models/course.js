@@ -1,6 +1,10 @@
 class Student {
-  id = 0;
-  name = null;
+  
+  constructor(){
+    this.id = 0;
+    this.name = null;
+  }  
+
 }
 
 module.exports = Student;
